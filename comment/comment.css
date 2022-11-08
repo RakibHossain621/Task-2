@@ -1,0 +1,67 @@
+body{
+    background-image: url('../home/pic/bg.webp') ;
+    background-position: center;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+.navbar-sec{
+    background: #c700ff;
+    height: 37px;
+}
+.navbar-sec ul{
+    list-style: none;
+    text-decoration: none;
+    display: flex;
+    margin-left: 46%;
+}
+.navbar-sec ul li a{
+    margin-left: 24px;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    line-height: 33px;
+}
+.navbar-sec ul li a:hover{
+    color: darkcyan;
+}
+
+.display{
+
+    width: 100%;
+    height: 400px;
+    margin-top: -16px;
+}
+
+.display .text-sec{
+    background-color: red;
+    width: 100%;
+    height: 40px;
+    text-align: center;
+    font-size: 25px;
+    display: inline-block;
+    margin-top: 16px;
+}
+.display .text-sec p{
+    color: white;
+    font-size: 28px;
+    font-weight: bold;
+    margin-top: 0px;
+}
+.display .output{
+    background-color: white;
+    width: 100%;
+    height: 450px;
+    margin-top: -17px;
+}
+.display .output button{
+    background: #47aa0f;
+    border-radius: 13px;
+    margin-top: 33px;
+    height: 50px;
+    width: 112px;
+    color: white;
+    font-size: 16px;
+    border-style: none;
+}
